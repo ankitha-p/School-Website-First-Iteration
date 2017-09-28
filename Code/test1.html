@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Student Registration</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>	
+	
+	<body background="../images/drama2.jpg">
+		<center>
+		<img src="../images/logo.jpg" width="180" height="100">
+		<img src="../images/anu school.jpg" width="500" height="100">
+		<div class="header">
+			<h1>Student Registration</h1>
+		</div></center>		
+		
+		
+		<form method="post" action="">
+		<table>
+			<tr>
+				<td>Name : </td>
+				<td><input type="text" name="name" class="textInput"></td>
+			</tr>			
+			<tr style="width:80%">
+				<td>Class : </td>
+				<td><input list="Classes" name="class" class="textInput">
+				<datalist id="Classes">
+					<option value="I"><option value="II"><option value="III">
+					<option value="IV"><option value="V"><option value="VI">
+					<option value="VII"><option value="VIII"><option value="IX">
+					<option value="X">
+				</datalist></td>
+			</tr>
+			<tr></tr><tr></tr><tr></tr>
+			<tr>
+				<td> Gender : </td>
+				<td><input type="radio" name="gender" value="male" > Male
+				<input type="radio" name="gender" value="female" checked> Female</td>
+				
+			</tr>
+			<br><tr></tr><tr></tr><tr></tr>
+			
+			<tr>
+				<td>Email : </td>
+				<td><input type="email" name="email" class="textInput"></td>
+			</tr>			
+			<tr>
+				<td>Password : </td>
+				<td><input type="password" name="password" class="textInput"></td>
+			</tr>			
+			<tr>			
+				<td>Confirm Password: </td>
+				<td><input type="password" name="password2" class="textInput"></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td><input type="submit" name="register_btn" class="Register"></td>
+			</tr> 
+		</table>
+		</form>
+	</body>
+</html>
